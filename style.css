@@ -1,0 +1,54 @@
+html,
+body {
+    height: 100%;
+    background-color: #3b3939 !important;
+    color: white !important;
+}
+
+#first {
+    margin-top: 15px;
+}
+
+.project {
+    border: 1px solid #b8b8b8;
+    border-radius: .25rem;
+    padding: 5px;
+    margin-top: -15px;
+}
+
+.desc {
+    color: #afa7a7;
+}
+
+.header {
+    color: white;
+}
+.header:hover {
+    color: #e0e0e0;
+    text-decoration: none;
+}
+
+.link {
+    color: #7185a7;
+}
+.link:hover {
+    color: #71a791;
+    text-decoration: none;
+}
+
+#projects {
+    width: 100%;
+    color: #dbd9d9 !important;
+    margin-top: -15px;
+}
+
+#pt {
+    margin-right: 24px;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
