@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
+html,
+body {
+    background-color: rgb(28, 30, 31) !important;
+    color: rgb(234, 242, 198) !important;
+}
+
+#logo {
+    font-family: 'Lexend', sans-serif;
+    -webkit-text-stroke: 2px rgb(234, 242, 198);
+    color: rgba(255, 255, 255, 0);
+    animation-name: logo_animation;
+    animation-duration: 1s;
+    margin: 10px !important;
+}
+
+#logo a {
+    text-decoration: none !important;
+    color: rgba(255, 255, 255, 0) !important;
+    -webkit-text-stroke: 2px rgb(234, 242, 198);
+}
+
+a .card-title {
+    color: rgb(234, 242, 198) !important;
+}
+
+a .card-title:hover {
+    text-decoration: underline !important;
+    text-decoration-color: rgb(234, 242, 198) !important;
+}
+
+.card {
+    animation-name: logo_animation;
+    animation-duration: 1s;
+    margin: 10px !important;
+}
+
+@keyframes logo_animation {
+    from {padding-top: 80px; opacity: 0}
+    to {padding-top: 0; opacity: 1}
+}
+
+.card {
+    border-radius: 0 !important;
+    box-shadow: 1px -1px 0 0 rgb(234 242 198);
+}
+
+.card-link {
+    color: ghostwhite !important;
+}
+
+.card {
+    margin: 5% auto;
+}

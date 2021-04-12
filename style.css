@@ -1,49 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@800&display=swap');
 html,
 body {
     height: 100%;
-    background-color: #3b3939 !important;
-    color: white !important;
+    background-color: rgb(28, 30, 31) !important;
+    color: rgb(234, 242, 198) !important;
 }
 
-#first {
-    margin-top: 15px;
+#logo {
+    font-family: 'Lexend', sans-serif;
+    -webkit-text-stroke: 2px rgb(234, 242, 198); /* width and color */
+    color: rgba(255, 255, 255, 0);
+    animation-name: logo_animation;
+    animation-duration: 1s;
 }
 
-.project {
-    border: 1px solid #b8b8b8;
-    border-radius: .25rem;
-    padding: 5px;
-    margin-top: -15px;
+@keyframes logo_animation {
+    from {padding-top: 80px; opacity: 0}
+    to {padding-top: 0; opacity: 1}
 }
 
-.desc {
-    color: #afa7a7;
-}
-
-.header {
-    color: white;
-}
-.header:hover {
-    color: #e0e0e0;
-    text-decoration: none;
-}
-
-.link {
-    color: #7185a7;
-}
-.link:hover {
-    color: #71a791;
-    text-decoration: none;
-}
-
-#projects {
-    width: 100%;
-    color: #dbd9d9 !important;
-    margin-top: -15px;
-}
-
-#pt {
-    margin-right: 24px;
+@keyframes button_animation {
+    from {opacity: 0}
+    to {opacity: 1}
 }
 
 .container {
@@ -51,4 +29,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+a, .btn {
+    border-radius: 50px !important;
+    margin: 5px !important;
+    animation: button_animation 1s both;
+    animation-delay: 1s;
+    padding: 5px !important;
+    height: 30px;
+    width: auto;
+}
+
+img {
+    vertical-align: top !important;
 }
