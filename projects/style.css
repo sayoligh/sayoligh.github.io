@@ -32,7 +32,6 @@ a .card-title:hover {
 .card {
     animation-name: logo_animation;
     animation-duration: 1s;
-    margin: 10px !important;
 }
 
 @keyframes logo_animation {
