@@ -11,7 +11,6 @@ body {
     color: rgba(255, 255, 255, 0);
     animation-name: logo_animation;
     animation-duration: 1s;
-    margin: 10px !important;
 }
 
 #logo a {
@@ -30,8 +29,14 @@ a .card-title:hover {
 }
 
 .card {
-    animation-name: logo_animation;
+    margin: 15px !important;
+    animation-name: card_animation;
     animation-duration: 1s;
+}
+
+@keyframes card_animation {
+    from {opacity: 0; left: -50px;}
+    to {opacity: 1; left: 0;}
 }
 
 @keyframes logo_animation {
